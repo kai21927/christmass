@@ -5,7 +5,4 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@unocss/nuxt'],
   css: ['@unocss/reset/tailwind-compat.css'],
-  app: {
-    baseURL: '/chrismass/' // 例如 '/my-project/'
-  }
 })
